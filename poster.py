@@ -20,7 +20,7 @@ class Poster:
     faker = None
 
     def __init__(self):
-        self.post_url = "http://www.domain.ru/srv/addcomment"
+        self.post_url = "http://www.neberitrubku.ru/srv/addcomment"
         script_file = open("./data/script.txt", "r")
         self.post_script = script_file.read()
         script_file.close()
